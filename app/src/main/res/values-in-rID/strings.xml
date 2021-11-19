@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Direktori Film</string>
+    <string name="failureConnect">Gagal Terkoneksi</string>
+    <string name="text_title">Judul Film</string>
+    <string name="text_description">Deskripsi Film</string>
+    <string name="text_release">Tayang %s</string>
+    <string name="text_name">Nama : Muhammad Rafly Indrawan</string>
+    <string name="text_nim">NIM : 19.11.2888</string>
+    <string name="text_about">Tentang</string>
+    <string name="text_setting">Pengaturan</string>
+    <string name="app_description">Aplikasi Simpel untuk melihat katalog film.</string>
+
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".AboutActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_md"
+        android:layout_marginTop="@dimen/margin_md"
+        android:layout_marginRight="@dimen/margin_md"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textSize="@dimen/text_lg" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="203dp"
+        android:background="#FFFFFF"
+        android:contentDescription="profile"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fliw"
+        app:srcCompat="@drawable/fliw"
+        tools:srcCompat="@drawable/fliw" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_description"
+        android:textSize="@dimen/text_md"
+        android:layout_marginLeft="@dimen/margin_md"
+        android:layout_marginRight="@dimen/margin_md"
+        android:layout_marginBottom="@dimen/margin_md"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_name"
+        android:textSize="@dimen/text_md"
+        android:layout_marginLeft="@dimen/margin_md"
+        android:layout_marginRight="@dimen/margin_md"
+        android:layout_marginTop="@dimen/margin_md"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_nim"
+        android:textSize="@dimen/text_md"
+        android:layout_marginLeft="@dimen/margin_md"
+        android:layout_marginRight="@dimen/margin_md"/>
+</LinearLayout>
